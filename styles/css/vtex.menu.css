@@ -1,0 +1,22 @@
+.menuContainerNav--menu-profile{
+    max-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.menuContainerNav--menu-profile .styledLinkContainer{
+    max-height: 30px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #858585;
+    padding: 0px 1rem;
+    margin: 0px;
+}
+
+.menuContainerNav--menu-profile .styledLinkContent{
+    font-size: 13px;
+}
+
+.menuContainer--mainMenu .styledLink{
+    color: #fff;
+}

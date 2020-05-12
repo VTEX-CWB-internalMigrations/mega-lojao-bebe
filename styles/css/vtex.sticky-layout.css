@@ -1,0 +1,7 @@
+.container--menu-header{
+    background: #f4ba37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 40px;
+}

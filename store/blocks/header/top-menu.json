@@ -3,7 +3,10 @@
     "children": [
       "menu-item#shop",
       "menu-item#about-us"
-    ]
+    ],
+    "props":{
+      "blockClass": "menu-profile"
+    }
   },
   "menu-item#shop": {
     "props": {

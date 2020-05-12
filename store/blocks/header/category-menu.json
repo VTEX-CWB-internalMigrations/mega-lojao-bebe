@@ -1,12 +1,11 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "blockClass": "mainMenu"
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-apparel"
     ]
   },
   "menu-item#category-apparel": {
@@ -22,10 +21,7 @@
         "tagTitle": "Apparel & Accessories",
         "text": "Apparel & Accessories"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
-    ]
+    }
   },
   "vtex.menu@2.x:submenu#category-apparel": {
     "props": {

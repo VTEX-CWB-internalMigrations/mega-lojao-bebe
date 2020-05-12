@@ -67,6 +67,20 @@
   font-weight: 700;
 }
 
+.container--phone-header{
+  display: flex;
+  align-items: center;
+  padding: 0px 1.25rem;
+  font-size: 13px;
+  font-weight: 600;
+  color: #878787;
+  margin: 3px 0px;
+}
+
+.paragraph--phone-header{
+  margin: 0px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

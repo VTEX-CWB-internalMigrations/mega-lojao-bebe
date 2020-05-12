@@ -3,6 +3,19 @@
   padding: 0 0.5rem;
 }
 
+.flexRowContent--first-header{
+  border-bottom: 3px solid #f4ba37;
+  max-height: 35px;
+}
+
+.flexRow--main-header{
+  border-bottom: 3px solid #008280;
+}
+
+.flexRow--main-header .stretchChildrenWidth .flexRow--main-header{
+  border-bottom: none;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
@@ -22,7 +35,7 @@
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color:#fff;;
 }
 
 .flexRowContent--main-header-mobile {
