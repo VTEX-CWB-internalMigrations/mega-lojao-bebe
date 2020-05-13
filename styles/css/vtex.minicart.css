@@ -1,0 +1,7 @@
+.minicartContainer :global(.vtex-button){
+    background: #008280;
+}
+
+.cartIcon{
+    color: #fff;
+}

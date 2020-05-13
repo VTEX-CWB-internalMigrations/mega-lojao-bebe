@@ -6,6 +6,7 @@
 .flexRowContent--first-header{
   border-bottom: 3px solid #f4ba37;
   max-height: 35px;
+  background: #f4f4f4
 }
 
 .flexRow--main-header{
@@ -14,6 +15,10 @@
 
 .flexRow--main-header .stretchChildrenWidth .flexRow--main-header{
   border-bottom: none;
+}
+
+.flexCol--searchBar{
+  width: 27rem;
 }
 
 @media screen and (min-width: 40em) {
@@ -27,6 +32,15 @@
   .flexRowContent--main-header {
     padding: 0 0.25rem;
   }
+
+  .flexRowContent--main-header{
+    position: relative;
+  }
+
+  .flexRowContent--main-header{
+    position: relative;
+  }
+  
 }
 
 .flexRowContent--menu-link {

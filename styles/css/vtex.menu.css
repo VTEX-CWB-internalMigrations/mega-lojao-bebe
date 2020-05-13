@@ -20,3 +20,19 @@
 .menuContainer--mainMenu .styledLink{
     color: #fff;
 }
+
+.menuContainer--mainMenu .menuItem{
+    display: flex;
+    align-items: center;
+}
+
+.menuContainer--mainMenu .menuItem .styledLinkContainer{
+    color: #ffffff;
+    margin: 10px 0px;
+    padding: 3px 10px;
+    border-right: 2px #fff solid;
+}
+
+.menuContainer--mainMenu .menuItem .styledLinkContainer:hover{
+    background-color: #e7af33;
+}

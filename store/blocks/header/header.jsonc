@@ -55,7 +55,8 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "search-bar",
+      "flex-layout.col#spacer",
+      "flex-layout.col#searchBar",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -80,7 +81,14 @@
       "width": "180"
     }
   },
-
+  "flex-layout.col#searchBar":{
+    "children":[
+      "search-bar"
+    ],
+    "props":{
+      "blockClass": "searchBar"
+    }
+  },
   "sticky-layout#3-desktop":{
     "children":[
       "vtex.menu@2.x:menu#category-menu"
