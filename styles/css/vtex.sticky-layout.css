@@ -5,3 +5,7 @@
     justify-content: center;
     max-height: 40px;
 }
+
+.container--menu-header{
+    box-shadow: -3px 5px 5px -3px rgba(36,36,36,0.25);
+}

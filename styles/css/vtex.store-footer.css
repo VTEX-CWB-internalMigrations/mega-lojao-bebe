@@ -9,3 +9,11 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+.socialNetworksContainer{
+  display: flex;
+  justify-content: center;
+}
+.footerLayout{
+  box-shadow: 0px -2px 5px 0px rgba(66,66,66,0.4);
+}

@@ -68,11 +68,29 @@
   width: 150px;
 }
 
-@media only screen and (min-width: 640px) {
-  .newsletter .container {
-    padding: 140px;
-  }
+.newsletter{
+  background-color: #008280;
+  margin: 0px;
+}
 
+.newsletter .container{
+  padding: 30px 0px;
+}
+
+.newsletter .container .label{
+  font-size: 25px;
+}
+
+.newsletter .container .inputGroup :global(.vtex-input-prefix__group){
+  background-color: #fff;
+}
+
+.newsletter .form :global(.vtex-button){
+  background: #f4ba37;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 640px) {
   .label {
     font-size: 40px;
   }
