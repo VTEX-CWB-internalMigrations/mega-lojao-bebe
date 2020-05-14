@@ -89,6 +89,26 @@
   font-size: 0px;
 }
 
+.container--footer{
+  font-size: 13px;
+}
+
+.image--vtex-logo{
+  width: 100px;
+}
+
+.container--vtex-logo{
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--contact-footer{
+  margin: 0px;
+  font-size: 14px;
+  color: #008280;
+  font-weight: 600;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

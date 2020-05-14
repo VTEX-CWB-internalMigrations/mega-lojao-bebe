@@ -101,11 +101,18 @@
   "flex-layout.row#footer-2-desktop": {
     "children": [
       "footer-spacer",
+      "rich-text#contact",
       "social-networks",
       "footer-spacer"
     ],
     "props": {
       "blockClass": "social-footer"
+    }
+  },
+  "rich-text#contact":{
+    "props":{
+      "text": "Central de Atendimento: (41) 99238 0533 <br /> Segunda á Sexta das 09:00 as 18:00hs.",
+      "blockClass": "contact-footer"
     }
   },
   "accepted-payment-methods": {
@@ -190,7 +197,8 @@
   },
   "rich-text#vtexImage":{
     "props":{
-      "text": "VTEX Logo Here"
+      "text": "VTEX Logo Here",
+      "blockClass": "vtex-logo"
     }
   }
 }

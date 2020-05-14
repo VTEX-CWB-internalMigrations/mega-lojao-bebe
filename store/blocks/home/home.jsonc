@@ -8,8 +8,7 @@
       "flex-layout.row#deals",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
+      "info-card#homeMain",
       "rich-text#link",
       "newsletter"
     ]
@@ -77,15 +76,15 @@
     }
   },
 
-  "info-card#home": {
+  "info-card#homeMain": {
     "props": {
       "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
+      "isFullModeStyle": true,
+      "textPosition": "center",
       "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
       "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
+      "callToActionText": "TEST",
+      "callToActionUrl": "",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }

@@ -87,6 +87,10 @@
   background-color: #fff;
 }
 
+.newsletter .form{
+  position: relative;
+}
+
 .newsletter .form :global(.vtex-button){
   background: #f4ba37;
   font-weight: 600;
