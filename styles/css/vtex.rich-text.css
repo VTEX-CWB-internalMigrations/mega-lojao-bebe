@@ -81,6 +81,14 @@
   margin: 0px;
 }
 
+.paragraph--phone-header{
+  margin: 0px;
+}
+
+.paragraph--iframe-box{
+  font-size: 0px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

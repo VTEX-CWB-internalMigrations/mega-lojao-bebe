@@ -38,7 +38,8 @@
   },
   "flex-layout.col#footerOneRowTwo": {
     "children": [
-      "rich-text#atendimento"
+      "rich-text#atendimento",
+      "rich-text#iframe"
     ]
   },
   "rich-text#payments": {
@@ -57,6 +58,12 @@
     "props": {
       "text": "**Atendimento**",
       "blockClass": "footerText"
+    }
+  },
+  "rich-text#iframe":{
+    "props":{
+      "text": "Iframe Here",
+      "blockClass": "iframe-box"
     }
   },
   "social-networks": {
