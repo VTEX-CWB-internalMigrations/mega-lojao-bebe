@@ -36,3 +36,20 @@
 .menuContainer--mainMenu .menuItem .styledLinkContainer:hover{
     background-color: #e7af33;
 }
+
+.menuContainerNav--menuDrawer{
+    width: 100%;
+}
+
+.menuContainerNav--menuDrawer .styledLinkContent{
+    display: flex;
+    justify-content: left;
+    color: #fff;
+    margin: 10px 0px;
+}
+
+.menuContainerNav--menuDrawer .styledLinkContent::before{
+    content: "◉";
+    color: #fff;
+    margin-right: 5px;
+}

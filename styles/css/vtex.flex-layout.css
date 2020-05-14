@@ -28,19 +28,23 @@
   }
 }
 @media screen and (min-width: 80rem) {
+
+  
+}
+
+@media screen and (min-width: 1025px){
+  .flexRowContent--main-header{
+    position: relative;
+  }
+
+  .flexRowContent--main-header .flexRowContent--main-header{
+    position: relative;
+  }
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
   }
 
-  .flexRowContent--main-header{
-    position: relative;
-  }
-
-  .flexRowContent--main-header{
-    position: relative;
-  }
-  
 }
 
 .flexRowContent--menu-link {
@@ -122,4 +126,15 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRow--drawerRow{
+  width: 100%;
+}
+
+.flexColChild--drawerCol{
+  display: flex;
+  background: #f4ba37;
+  padding: 5px 0px;
+  border-bottom: 5px solid #fff;
 }
