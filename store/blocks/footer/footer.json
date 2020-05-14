@@ -15,8 +15,7 @@
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "footer-spacer",
-      "vtex.menu@2.x:menu#footerfirst",
-      "vtex.menu@2.x:menu#footersecond",
+      "flex-layout.col#footerOneRowZero",
       "flex-layout.col#footerOneRowOne",
       "flex-layout.col#footerOneRowTwo",
       "footer-spacer"
@@ -25,6 +24,17 @@
       "blockClass": "menu-row",
       "paddingTop": 6,
       "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#footerOneRowZero":{
+    "children":[
+      "rich-text#institutionalTitle",
+      "vtex.menu@2.x:menu#footerfirst"
+    ]
+  },
+  "rich-text#institutionalTitle":{
+    "props":{
+      "text": "**Institucionais**"
     }
   },
   "flex-layout.col#footerOneRowOne": {

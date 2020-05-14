@@ -79,6 +79,8 @@
 
 .newsletter .container .label{
   font-size: 25px;
+  z-index: 9;
+  position: inherit;
 }
 
 .newsletter .container .inputGroup :global(.vtex-input-prefix__group){
@@ -88,6 +90,20 @@
 .newsletter .form :global(.vtex-button){
   background: #f4ba37;
   font-weight: 600;
+}
+
+.newsletter .form::before{
+  content: "";
+  background: url(https://megalojaodobebe.vteximg.com.br/arquivos/starNewsletter.png);
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-size: 40px;
+  position: absolute;
+  top: -15px;
+  left: 60px;
+  transform: rotate(35deg);
+  z-index: 2;
 }
 
 @media only screen and (min-width: 640px) {
@@ -156,4 +172,8 @@
   color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
+}
+
+.imageElement--payment{
+  max-width: 215px;
 }
