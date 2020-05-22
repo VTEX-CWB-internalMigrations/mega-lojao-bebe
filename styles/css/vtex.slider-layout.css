@@ -29,3 +29,7 @@
 .sliderTrackContainer{
   max-width: initial;
 }
+
+.sliderLayoutContainer--shelf{
+  margin-bottom: 40px;
+}
