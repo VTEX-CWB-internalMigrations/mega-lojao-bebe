@@ -152,3 +152,7 @@
 .flexRowContent--menu-row{
   padding: 15px 0px 50px;
 }
+
+.flexRow--social-footer :global(.vtex-store-components-3-x-container), .flexRow--credits :global(.vtex-store-components-3-x-container){
+  max-width: initial;
+}

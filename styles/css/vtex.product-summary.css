@@ -11,6 +11,11 @@
   opacity: 1;
 }
 
+.brandName{
+  font-size: 14px;
+  color: #555555;
+}
+
 @media screen and (max-width: 40em) {
   .container :global(.vtex-modal-layout-0-x-triggerContainer) {
     display: none;

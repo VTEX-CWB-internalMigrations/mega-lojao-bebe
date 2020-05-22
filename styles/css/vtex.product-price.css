@@ -32,9 +32,12 @@
 
 .savings--summary {
   background: #8BC34A;
-  border-radius: 1000px;
   align-items: center;
   display: flex;
+  color: #fff;
+  font-size: 11px;
+  padding: 0px 10px;
+  border-radius: 4px;
 }
 
 .savings-discount--summary {
