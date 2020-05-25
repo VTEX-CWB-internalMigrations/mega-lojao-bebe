@@ -160,3 +160,16 @@
 .flexRow--deals{
   display: none;
 }
+
+.flexRowContent--buy-button :global(.vtex-button){
+  border-radius: 100px;
+  border: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 10px;
+}
+
+.flexRow--main-product-context{
+  max-width: 1400px;
+  margin: 0px auto;
+}

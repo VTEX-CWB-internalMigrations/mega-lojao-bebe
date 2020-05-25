@@ -124,6 +124,74 @@
   border: none;
 }
 
+.infoCardCallActionContainer--info-card-home :global(.vtex-button):hover{
+  background-color: #f4ba37;
+  border: none;
+}
+
+.productBrand{
+  position: relative;
+  font-size: 22px;
+}
+
+.productBrand::before{
+  display: block;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #008381;
+  border-radius: 20px;
+  position: absolute;
+  top: -5px;
+  left: -30px;
+}
+
+.productBrand::after{
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #ffc038;
+  border-radius: 20px;
+  position: absolute;
+  top: -25px;
+  left: -10px;
+}
+
+.productDescriptionTitle{
+  padding: 15px;
+  background: rgb(255, 192, 56);
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0px;
+}
+
+.productDescriptionText .content{
+  padding: 15px;
+}
+
+.productDescriptionContainer{
+  max-width: 1400px;
+  background: #ececec;
+  border-radius: 15px;
+  position: relative;
+}
+
+.productDescriptionTitle::before{
+  display: block;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #008381;
+  border-radius: 20px;
+  position: absolute;
+  top: -20px;
+  left: 5px;
+}
+
 @media only screen and (min-width: 640px) {
   .label {
     font-size: 40px;

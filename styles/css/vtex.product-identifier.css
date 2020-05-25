@@ -1,3 +1,11 @@
 .product-identifier--productReference {
   margin-bottom: 1rem;
 }
+
+.product-identifier--productReference{
+  font-size: 13px;
+  padding: 5px;
+  background: #008381;
+  color: #fff;
+  border-radius: 2px;
+}

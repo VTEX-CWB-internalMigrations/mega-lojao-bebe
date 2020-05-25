@@ -9,6 +9,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#homeMain",
+      "rich-text#shelf-title2",
       "flex-layout.row#shelf2",
       "newsletter"
     ]
@@ -53,6 +54,14 @@
       "blockClass": "shelfTitle"
     }
   },
+
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
