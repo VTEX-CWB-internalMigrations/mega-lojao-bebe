@@ -1,0 +1,10 @@
+.container{
+    padding: 5px 10px;
+}
+.homeIcon{
+    height: 20px;
+}
+.link , .caretIcon , .homeIcon , .term{
+    color: #008280;
+    font-size: 14px;
+}

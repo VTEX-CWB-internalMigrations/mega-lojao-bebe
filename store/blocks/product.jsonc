@@ -4,9 +4,9 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#description",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      "shelf.relatedProducts"
+      //"product-reviews",
+      //"product-questions-and-answers"
     ]
   },
   "flex-layout.row#product-breadcrumb": {
@@ -67,8 +67,7 @@
   "product-images": {
     "props": {
       "aspectRatio": {
-        "desktop": "auto",
-        "phone": "16:9"
+        "desktop": "auto"
       },
       "displayThumbnailsArrows": true
     }
@@ -81,7 +80,7 @@
     "children": [
       "flex-layout.row#product-name",
       "product-identifier.product",
-      "product-rating-summary",
+      //"product-rating-summary",
       "product-separator",
       "flex-layout.row#list-price-savings",
       "product-installments",
