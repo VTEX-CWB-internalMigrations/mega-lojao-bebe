@@ -173,3 +173,29 @@
   max-width: 1400px;
   margin: 0px auto;
 }
+
+.flexRow--social-footer{
+  background: #f0f0f0;
+}
+
+.flexRow--title-institutional{
+  max-width: 1000px;
+  margin: 50px auto 0px;
+  padding: 0px 15px;
+  background: #ffc038;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.flexRow--text-institutional{
+  background: #f4f4f4;
+  max-width: 1000px;
+  margin: 0px auto 50px;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+

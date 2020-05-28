@@ -1,0 +1,36 @@
+{
+    "store.custom#intitutionalTrue": {
+      "blocks": [
+        "flex-layout.row#title-intitutionalTrue",
+        "flex-layout.row#content-intitutionalTrue"
+      ]
+    },
+    "flex-layout.row#title-intitutionalTrue":{
+      "children":[
+        "rich-text#title-intitutionalTrue"
+      ],
+      "props":{
+        "blockClass": "title-institutional"
+      }
+    },
+    "rich-text#title-intitutionalTrue":{
+      "props":{
+        "text":"[Título da página]",
+        "blockClass":"title-intitutional"
+      }
+    },
+    "flex-layout.row#content-intitutionalTrue":{
+      "children":[
+        "rich-text#content-intitutionalTrue"
+      ],
+      "props":{
+        "blockClass": "text-institutional"
+      }
+    },  
+    "rich-text#content-intitutionalTrue":{
+      "props":{
+        "text":"[Conteúdo da página]",
+        "blockClass":"content-intitutional"
+      }
+    } 
+  }
