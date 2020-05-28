@@ -15,3 +15,12 @@
 .filtersWrapper{
     padding-left: 15px;
 }
+
+.buttonShowMore{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.filterPopupTitle{
+    font-size: 12px;
+}

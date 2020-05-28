@@ -3,7 +3,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context":{
-        "maxItemsPerPage":20,
+        "maxItemsPerPage":15,
         "installmentCriteria": "MAX_WITH_INTEREST"
       }
     }
@@ -15,7 +15,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 20,
+        "maxItemsPerPage": 15,
         "installmentCriteria": "MAX_WITH_INTEREST"
       }
     }
@@ -25,7 +25,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context":{
-        "maxItemsPerPage":20,
+        "maxItemsPerPage":15,
         "installmentCriteria": "MAX_WITH_INTEREST"
       }
     }
@@ -35,7 +35,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context":{
-        "maxItemsPerPage":20,
+        "maxItemsPerPage":15,
         "installmentCriteria": "MAX_WITH_INTEREST"
       }
     }
@@ -45,7 +45,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context":{
-        "maxItemsPerPage":20,
+        "maxItemsPerPage":15,
         "installmentCriteria": "MAX_WITH_INTEREST"
       }
     }
@@ -71,11 +71,7 @@
     ],
     "props": {
       "pagination": "show-more",
-      "installmentCriteria": "MAX_WITH_INTEREST",
-      "mobileLayout": {
-        "mode1": "small",
-        "mode2": "normal"
-      }
+      "installmentCriteria": "MAX_WITH_INTEREST"
     }
   },
   "flex-layout.row#testImage":{
@@ -170,18 +166,28 @@
     "props": {
       "pagination": "show-more",
       "mobileLayout": {
-        "mode1": "small",
-        "mode2": "normal"
+        "mode1": "normal",
+        "mode2": "small"
       }
     }
   },
   "flex-layout.row#contentmobile": {
-    "children": ["search-content"],
+    "children": ["flex-layout.col#all-search"],
     "props": {
       "preserveLayoutOnMobile": true
     }
   },
-
+  "flex-layout.col#all-search":{
+    "children":[
+      "flex-layout.row#mobile-content",
+      "flex-layout.row#fetchmore"
+    ]
+  },
+  "flex-layout.row#mobile-content":{
+    "children":[
+      "search-content"
+    ]
+  },
   "flex-layout.row#searchinfomobile": {
     "children": [
       "flex-layout.col#orderByMobile",

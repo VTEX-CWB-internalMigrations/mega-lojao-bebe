@@ -136,14 +136,14 @@
   "flex-layout.col#drawer":{
     "children":[
       "login#mobile",
-      "menu#drawer"
+      "menu#drawer-left"
     ],
     "props":{
       "blockClass": "drawerCol"
     }
   },
 
-  "menu#drawer": {
+  "menu#drawer-left": {
     "children": [
     ],
     "props": {

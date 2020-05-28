@@ -43,6 +43,7 @@
       "product-rating-inline",
       "product-summary-space",
       "product-list-price#summary",
+      "product-price-savings#summary",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
       "add-to-cart-button"

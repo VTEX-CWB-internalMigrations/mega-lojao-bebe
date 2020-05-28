@@ -145,7 +145,8 @@
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-mobile"
+      "flex-layout.row#footer-3-mobile",
+      "rich-text#vtex-image-mobile"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
@@ -182,8 +183,7 @@
   },
   "flex-layout.row#footer-3-mobile": {
     "children": [
-      "rich-text#footer-mobile",
-      "rich-text#vtexImage"
+      "rich-text#footer-mobile"
     ],
     "props": {
       "blockClass": "credits"
@@ -198,6 +198,12 @@
   "rich-text#vtexImage":{
     "props":{
       "text": "VTEX Logo Here",
+      "blockClass": "vtex-logo"
+    }
+  },
+  "rich-text#vtex-image-mobile":{
+    "props":{
+      "text": "![Imagem do logotipo da VTEX](https://megalojaodobebe.vteximg.com.br/arquivos/vtexLogoMain.png)",
       "blockClass": "vtex-logo"
     }
   }
